@@ -1,0 +1,25 @@
+// JavaScript for Multi-Page Navigation
+document.addEventListener("DOMContentLoaded", function () {
+  const navLinks = document.querySelectorAll(".nav-link");
+  const pages = document.querySelectorAll(".page");
+
+  // Function to show the selected page
+  function showPage(pageId) {
+    pages.forEach((page) => {
+      page.classList.remove("active");
+    });
+    document.getElementById(pageId).classList.add("active");
+  }
+
+  // Add event listeners to navigation links
+  navLinks.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+      const targetPage = link.getAttribute("data-page");
+      showPage(targetPage);
+    });
+  });
+
+  // Show the home page by default
+  showPage("home");
+});

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanjeevani Social Consulting Pvt Ltd</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="https://i.imgur.com/xyz1234.png" alt="Sanjeevani Social Consulting Logo">
+        <span class="tagline">Transforming Intent into Impact</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home" class="nav-link" data-page="home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-page="about">About</a></li>
+          <li><a href="#services" class="nav-link" data-page="services">Services</a></li>
+          <li><a href="#focus" class="nav-link" data-page="focus">Focus Areas</a></li>
+          <li><a href="#collaborations" class="nav-link" data-page="collaborations">Collaborations</a></li>
+          <li><a href="#contact" class="nav-link" data-page="contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Page -->
+  <section id="home" class="page active">
+    <div class="hero">
+      <div class="container">
+        <h1>Empowering Rural India, Enabling Sustainable Change</h1>
+        <p>We bridge the gap between intent and impact by delivering measurable, scalable, and sustainable solutions.</p>
+        <a href="#services" class="btn">Explore Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Page -->
+  <section id="about" class="page">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We exist to bridge the gap between intent and impact by transforming well-meaning development efforts into measurable, scalable, and sustainable solutions.</p>
+      <div class="vision-mission">
+        <div class="vision">
+          <h3>Our Vision</h3>
+          <p>A world where every development effort is efficient, accountable, and transformative, creating lasting positive change for communities and societies.</p>
+        </div>
+        <div class="mission">
+          <h3>Our Mission</h3>
+          <p>To empower and enable development actors to maximize their social impact through strategic, data-driven, and technology-enabled solutions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Page -->
+  <section id="services" class="page">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-categories">
+        <div class="category">
+          <img src="https://images.pexels.com/photos/6646903/pexels-photo-6646903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Corporate Services">
+          <h3>Corporate</h3>
+          <ul>
+            <li>CSR Strategy Development</li>
+            <li>Impact Measurement & Evaluation</li>
+            <li>Sustainability Reporting</li>
+            <li>Employee Engagement Programs</li>
+          </ul>
+        </div>
+        <div class="category">
+          <img src="https://images.pexels.com/photos/6646984/pexels-photo-6646984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="NGO Services">
+          <h3>Non-Governmental Organizations (NGOs)</h3>
+          <ul>
+            <li>Program Design & Implementation</li>
+            <li>Capacity Building & Training</li>
+            <li>Monitoring & Evaluation</li>
+            <li>Fundraising & Grant Management</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Focus Areas Page -->
+  <section id="focus" class="page">
+    <div class="container">
+      <h2>Focus Areas</h2>
+      <div class="focus-grid">
+        <div class="focus-item">
+          <img src="https://images.pexels.com/photos/6646982/pexels-photo-6646982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sustainable Rural Development">
+          <h3>Sustainable Rural Development</h3>
+          <p>Empowering rural communities with sustainable practices for long-term growth.</p>
+        </div>
+        <div class="focus-item">
+          <img src="https://images.pexels.com/photos/6646981/pexels-photo-6646981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Agriculture Development">
+          <h3>Agriculture Development</h3>
+          <p>Innovative solutions to enhance agricultural productivity and farmer livelihoods.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collaborations Page -->
+  <section id="collaborations" class="page">
+    <div class="container">
+      <h2>Collaborations</h2>
+      <p>We partner with NGOs, corporates, and government agencies to drive impactful change.</p>
+    </div>
+  </section>
+
+  <!-- Contact Us Page -->
+  <section id="contact" class="page">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Sanjeevani Social Consulting Pvt Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
